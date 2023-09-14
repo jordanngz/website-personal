@@ -1,0 +1,95 @@
+header, section#profile, section#Alasan, section#alasanpilihjurusanSisteminformasi, section#link
+{
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+body{
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section#profile h1, section#Alasan h1, section#alasanpilihjurusanSisteminformasi h1, section#link h1 {
+  text-align: center;
+  font-size: 32px;
+  background-color: rgba(255, 0, 0, 0.521);
+  padding: 10px;
+}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header img{
+        float: left
+    }
+
+    header h1{
+        float: left;
+        font-size: 70px;
+        margin-top: 32px;
+        margin-left: 20px;
+        width: 1500px;
+        border-bottom: 5px solid black;
+        text-align: center;
+    }
+    
+    .fix{
+        clear: both;
+    }
+
+    #maskot img{
+        float:right
+    }
+    
+    #profile-content #deskripsi-profile{
+        width: 1500px;
+        font-size: 25px;
+        float: right;
+        float: left;
+        margin-left: 15px;
+    }
+    #profile-content img{
+        float: left;
+    }
+.fix1{
+    clear: both;
+}
+
+#item img{
+    width: 350px;
+    float: left;
+}
+
+#item #alasan3{
+    width: 1500px;
+    font-size: 25px;
+    float: right;
+    float: left;
+    margin-left: 15px
+}
+.fix2{
+    clear: both;
+}
+
+#itemreason img{
+    width: 350px;
+    float: left;
+}
+
+#itemreason #alasan4{
+    float: right;
+    float: left;
+    width: 1500px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.fix3{
+    clear: both;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
